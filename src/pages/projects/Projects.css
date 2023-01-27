@@ -1,0 +1,42 @@
+.projects-container {
+  padding-bottom: 38px;
+  color: white;
+}
+
+.content {
+  max-width: 600px;
+  margin: 15px 80px 40px;
+}
+
+img {
+  width: 55vw;
+  height: 410px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  height: 410px;
+  width: 55vw;
+  text-align: center;
+  background: rgb(191 65 202 / 10%);
+  border-radius: 20px;
+  word-wrap: break-word;
+  padding: 12% 20px 40px;
+}
+
+.overlay h2 {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 475px) {
+  .overlay h2 {
+    padding-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .overlay {
+    padding-top: 8%;
+  }
+}
