@@ -1,12 +1,15 @@
-import './App.css';
+import './App.css'
 import Navbar from './components/Navbar'
 
-function App() {
+import Projects from './pages/projects/Projects'
+
+function App () {
   return (
-    <div className="App">
+    <div className='app-class'>
       <Navbar />
+      <Projects />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
