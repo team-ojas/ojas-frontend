@@ -1,1 +1,26 @@
-/* stylelint-disable-next-line no-empty-source */
+.team-page {
+  color: white;
+  background-color: #2b2b2b;
+}
+
+.team-content {
+  max-width: 600px;
+  margin: 15px auto 40px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our-team {
+  font-size: 2em;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.year {
+  font-size: 1.7em;
+}
