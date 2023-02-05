@@ -10,10 +10,45 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
+import { useState, useEffect, useRef } from 'react'
+import BIRDS from 'vanta/dist/vanta.birds.min'
+import * as THREE from 'three'
 
 function App () {
+  const [vantaEffect, setVantaEffect] = useState(0)
+  const vantaRef = useRef(null)
+
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        BIRDS({
+          el: vantaRef.current,
+          THREE,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          color1: 0xa259ff,
+          color2: 0xff0000,
+          minHeight: 500.0,
+          minWidth: 600.0,
+          scale: 1.0,
+          backgroundColor: 0x242424,
+          scaleMobile: 1.0,
+          alignment: 37.00,
+          cohesion: 85.00,
+          quantity: 3.50,
+          birdSize: 0.90,
+          wingSpan: 16.00
+        })
+      )
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy()
+    }
+  }, [vantaEffect])
+
   return (
-    <div className='app-class'>
+    <div className='app-class' ref={vantaRef}>
       <Router>
         <Navbar />
         <Routes>
