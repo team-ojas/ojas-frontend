@@ -37,7 +37,7 @@ i {
   padding-right: 5px;
 }
 
-a:hover {
+.nav-options:hover {
   background-color: #a259ff;
   transition: 1.2s;
 }
