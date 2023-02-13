@@ -27,3 +27,11 @@
 .card:hover {
   transform: scale(1.1);
 }
+
+.socials {
+  position: absolute;
+  top: 56%;
+  opacity: 1;
+  transition: 1s;
+  color: #fff;
+}
