@@ -1,13 +1,13 @@
 .event-card {
-  width: 18vw;
+  width: 20vw;
   height: 400px;
-  background: #2b2b2b;
+  background: #3b3b3b;
   border-radius: 20px;
   text-align: center;
   transition: 0.5s;
-  margin: 30px 60px;
+  margin: 30px 40px;
   min-width: 270px;
-  box-shadow: 0 0 1rem #a259ff;
+  box-shadow: 0 0 1.4rem #a259ff;
 }
 
 .event-image {
