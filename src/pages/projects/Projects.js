@@ -26,7 +26,7 @@ function createSlide () {
 
 export default function Projects () {
   return (
-    <div className='projects-container' style={{ background: '#2B2B2B' }}>
+    <div className='projects-container'>
       <div className='content'>
         <h1 style={{ marginBottom: '30px' }}>Projects</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam qui libero, nulla quo sequi doloribus dicta, ea similique voluptatum minus voluptates architecto beatae quam eum nam fugiat. Soluta, saepe ipsa?</p>
