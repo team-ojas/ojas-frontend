@@ -4,7 +4,8 @@
 
 .team-content {
   max-width: 600px;
-  margin: 40px 80px;
+  margin: 90px 80px;
+  margin-bottom: 40px;
 }
 
 .flex-container {
