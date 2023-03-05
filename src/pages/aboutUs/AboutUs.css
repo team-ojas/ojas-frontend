@@ -1,6 +1,7 @@
 .about-us-content {
   text-align: center;
-  margin: 30px auto;
+  margin: 90px auto;
+  margin-bottom: 0;
   max-width: 900px;
   padding-left: 30px;
   padding-right: 30px;
@@ -16,6 +17,12 @@
   height: auto;
 }
 
+@media (max-width: 945px) {
+  .about-us-content {
+    margin: 90px 10px;
+  }
+}
+
 @media (max-width: 490px) {
   .team-img {
     margin-top: 3rem;
@@ -23,6 +30,6 @@
   }
 
   .about-us-content {
-    margin: 30px 1rem;
+    margin: 90px 1rem;
   }
 }
