@@ -16,7 +16,7 @@ function createSlide () {
   return (
     <SwiperSlide style={style}>
       <img className='img' src='https://www.w3schools.com/css/img_forest.jpg' alt='' />
-      <div class='overlay'>
+      <div className='overlay'>
         <h2>Irrigation System using Na</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione soluta maxime nemo recusandae qui blanditiis repudiandae labore perferendis dolorum quaerat? Velit ducimus alias accusantium quas iure et quidem. Perferendis, voluptate.</p>
       </div>
