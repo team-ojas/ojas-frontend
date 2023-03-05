@@ -2,6 +2,8 @@ nav {
   background: #3b3b3b;
   height: 70px;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 label.logo {
@@ -16,7 +18,7 @@ label.logo {
 nav ul {
   float: right;
   margin-right: 10px;
-  z-index: 4;
+  z-index: 444;
 }
 
 nav ul li {
