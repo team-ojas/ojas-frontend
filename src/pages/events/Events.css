@@ -2,5 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #242424;
+}
+
+.content {
+  max-width: 600px;
+  margin: 90px 80px 50px;
 }
