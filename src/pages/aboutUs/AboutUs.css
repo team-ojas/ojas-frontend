@@ -8,6 +8,8 @@
   border: 1px solid #a259ff;
   border-radius: 0.5rem;
   box-shadow: 0 0 0.5rem #a259ff;
+  box-sizing: border-box;
+  z-index: 100;
 }
 
 .team-img {
@@ -15,6 +17,7 @@
   margin-bottom: 3rem;
   width: 60%;
   height: auto;
+  border-radius: 5px;
 }
 
 @media (max-width: 945px) {
@@ -30,6 +33,7 @@
   }
 
   .about-us-content {
-    margin: 90px 1rem;
+    margin: 90px auto;
+    width: 90%;
   }
 }
