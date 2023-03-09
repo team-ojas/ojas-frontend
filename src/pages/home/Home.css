@@ -1,6 +1,6 @@
 .home-content {
   max-width: 600px;
-  margin: 27vh auto 60px;
+  margin: 35vh auto 60px;
   text-align: center;
   padding: 20px;
 }
@@ -46,4 +46,5 @@
 
 .home-content .ojas-desc {
   font-size: 1.6em;
+  font-family: Electrolize, sans-serif;
 }
