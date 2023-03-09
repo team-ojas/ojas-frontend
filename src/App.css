@@ -10,3 +10,59 @@
 .app-class {
   background: #242424;
 }
+
+.animation-container {
+  position: fixed;
+  top: 70px;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.bubbles {
+  position: relative;
+  display: flex;
+  animation: animate 15s linear infinite;
+}
+
+.bubbles span {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background: #4fc3dc;
+  margin: 0 3%;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 5px #4fc3dc44,
+    0 0 30px #4fc3dc,
+    0 0 80px #4fc3dc;
+  animation: myanimation 15s linear infinite;
+  animation-duration: calc(125s / var(--i));
+  top: 95vh;
+}
+
+.bubbles span:nth-child(even) {
+  background: #ff2d75;
+  box-shadow:
+    0 0 0 10px #ff2d7544,
+    0 0 30px #ff2d75,
+    0 0 70px #ff2d75;
+}
+
+@keyframes myanimation {
+  from {
+    top: 100vh;
+    scale: 0;
+  }
+
+  to {
+    top: 0;
+    scale: 1;
+  }
+}
+
+@media (max-width: 1200px) {
+  .bubbles span {
+    margin: 0 2.3%;
+  }
+}
