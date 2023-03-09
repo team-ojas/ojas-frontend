@@ -7,7 +7,8 @@
   transition: 0.5s;
   margin: 30px 60px;
   min-width: 270px;
-  box-shadow: 0 0 1rem #a259ff;
+  border: 1px solid #a259ff;
+  box-shadow: 0 0 0.5rem #a259ff;
   z-index: 1;
 }
 
