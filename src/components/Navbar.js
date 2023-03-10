@@ -13,7 +13,7 @@ export default function Navbar () {
         <label htmlFor='check' className='checkbtn'>
           <i className='fas fa-bars' />
         </label>
-        <label className='logo'><Link to='/'>Team OJAS</Link></label>
+        <label className='logo'><Link to='/'>OJAS</Link></label>
         <ul>
           <li><Link className='nav-options' to='/' onClick={componentDidMount}><i className='fa-solid fa-house' />Home</Link></li>
           <li><Link className='nav-options' to='projects' onClick={componentDidMount}><i className='fa-solid fa-diagram-project' />Projects</Link></li>
