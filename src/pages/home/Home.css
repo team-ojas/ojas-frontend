@@ -1,8 +1,8 @@
 .home-content {
   max-width: 600px;
-  margin: 35vh auto 60px;
+  margin: 20vh auto 60px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .home-content .ojas-title {
@@ -47,4 +47,55 @@
 .home-content .ojas-desc {
   font-size: 1.6em;
   font-family: Electrolize, sans-serif;
+}
+
+.blockquote-wrapper {
+  display: flex;
+}
+
+.blockquote {
+  position: relative;
+  max-width: 520px;
+  margin: 55px auto;
+  align-self: center;
+}
+
+.blockquote h1 {
+  position: relative;
+  color: #c9eeff;
+  font-size: 1.7rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  border: 2px solid #fff;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 0 0.2rem #c9eeff;
+}
+
+.blockquote h1::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #c9eeff;
+  border-radius: 0 50px 0 0;
+  width: 50px;
+  height: 60px;
+  bottom: -61.4px;
+  left: 70px;
+  border-bottom: none;
+  border-left: none;
+  z-index: 3;
+}
+
+.blockquote h1::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  border: 5px solid #242424;
+  bottom: -9.5px;
+  left: 75px;
+  z-index: 2;
+  box-shadow: none;
+  border-radius: 0 0 0 20px;
 }
