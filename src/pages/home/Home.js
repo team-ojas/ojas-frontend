@@ -14,7 +14,7 @@ export default function Home () {
           <span style={{ '--i': '7' }}>A</span>
           <span style={{ '--i': '8' }}>S</span>
         </h1>
-        <p className='ojas-desc'>The Departmental Team Of Electrical Engineering Department, NIT Hamirpur</p>
+        <p className='ojas-desc'>The Departmental Team Of Electrical Engineering</p>
         <div class='blockquote-wrapper'>
           <div class='blockquote'>
             <h1>
