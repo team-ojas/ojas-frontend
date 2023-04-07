@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 10px 60px;
+  margin: 15px 60px;
   align-items: center;
   background-color: #2b2b2b;
   border-radius: 20px;
@@ -17,8 +17,8 @@
 }
 
 .card-img {
-  width: 125px;
-  height: 125px;
+  width: 140px;
+  height: 140px;
   border-radius: 100px;
 }
 
@@ -32,7 +32,7 @@
 
 .socials {
   position: absolute;
-  top: 56%;
+  top: 59%;
   opacity: 1;
   transition: 1s;
   color: #fff;

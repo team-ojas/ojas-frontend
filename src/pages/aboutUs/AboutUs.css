@@ -12,10 +12,11 @@
 }
 
 .team-img {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 70%;
   height: auto;
+  border-radius: 10px;
 }
 
 @media (max-width: 945px) {

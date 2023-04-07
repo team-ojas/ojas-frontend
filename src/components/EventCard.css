@@ -69,13 +69,15 @@
   margin-top: 10px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 490px) {
   .popup-content {
     padding-left: 0;
   }
 
   .popup-image {
-    width: 100%;
+    margin: auto;
+    width: 70%;
     margin-bottom: 10px;
+    margin-top: 0;
   }
 }
