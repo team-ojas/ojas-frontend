@@ -5,7 +5,7 @@ export default function Team () {
   const finalyear = [
     { name: 'Khwab Kalra', link: 'https://www.linkedin.com/in/khwab2064', imageLink: 'https://i.imgur.com/llebqmU.jpg' },
     { name: 'Shubham Sharma', link: 'https://www.linkedin.com/in/2211shubham', imageLink: 'https://i.imgur.com/IWZCYsO.jpg' },
-    { name: 'Prakhar Pratyush', link: 'https://www.linkedin.com/in/prakhar1144/', imageLink: 'https://i.imgur.com/w7WrhHx.png' },
+    { name: 'Prakhar Pratyush', link: 'https://www.linkedin.com/in/prakhar1144/', imageLink: 'https://i.imgur.com/REY2Klb.png' },
     { name: 'Bhavesh Uttawani', link: 'https://www.linkedin.com/in/bhavesh-uttawani-23023a202', imageLink: 'https://i.imgur.com/4f3uX26.jpg' },
     { name: 'Nandini Sharma', link: 'https://www.linkedin.com/in/nandini-sharma-70551819b', imageLink: 'https://i.imgur.com/5qzm4zV.jpg' },
     { name: 'Priyanka Mandal', link: 'https://www.linkedin.com/in/priyanka-mandal-370667156', imageLink: 'https://i.imgur.com/ZuKTwfX.jpg' },
