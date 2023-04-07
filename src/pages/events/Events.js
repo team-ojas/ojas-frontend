@@ -29,7 +29,7 @@ export default function Events () {
     },
     {
       eventName: 'Design Detective',
-      eventDesc: ' Unveiling of the new logo of team Ojas was inaugurated by the event. Each team participating in treasure hunt was given a puzzle through a QR code,the quickest team was declared winner.Details of the event: Maximum students per team: 3 Total students participating: 93 ,Prize: A Netflix subscription',
+      eventDesc: ' Unveiling of the new logo of team Ojas via a treasure hunt. Each team participating in treasure hunt was given a puzzle through a QR code,the quickest team was declared winner.',
       eventImage: 'https://i.imgur.com/tAi8KTH.png',
       eventDate: '4/02/2003'
     }
