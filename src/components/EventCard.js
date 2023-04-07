@@ -28,7 +28,7 @@ export default function EventCard (props) {
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
         <img className='popup-image' src={props.eventImage} alt='' />
         <div className='popup-content'>
-          <p className='event-date'>11/01/2003</p>
+          <p className='event-date'>{props.eventDate}</p>
           <h4 className='popup-title'>{props.eventName}</h4>
           <p className='popup-desc'>{props.eventDesc}</p>
         </div>

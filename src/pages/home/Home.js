@@ -15,8 +15,8 @@ export default function Home () {
           <span style={{ '--i': '8' }}>S</span>
         </h1>
         <p className='ojas-desc'>The Departmental Team Of Electrical Engineering</p>
-        <div class='blockquote-wrapper'>
-          <div class='blockquote'>
+        <div className='blockquote-wrapper'>
+          <div className='blockquote'>
             <h1>
               Fueled by <span style={{ color: '#db0087' }}>Innovation</span> Driven by <span style={{ color: '#db0087' }}>Determination</span>
             </h1>
