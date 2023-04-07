@@ -146,15 +146,7 @@ export default function Team () {
     <div className='team-page'>
 
       <div className='team-content'>
-        <h1>Final Year</h1>
-      </div>
-
-      <div className='flex-container'>
-        {finalyear.map((member, index) => <TeamCard key={index} name={member.name} link={member.link} imageLink={member.imageLink} />)}
-      </div>
-
-      <div className='team-content'>
-        <h1>Core Coordinators</h1>
+        <h1 className='year-heading'>Club Coordinators</h1>
       </div>
 
       <div className='flex-container'>
@@ -162,7 +154,15 @@ export default function Team () {
       </div>
 
       <div className='team-content'>
-        <h1>Coordinators</h1>
+        <h1 className='year-heading'>Final Year</h1>
+      </div>
+
+      <div className='flex-container'>
+        {finalyear.map((member, index) => <TeamCard key={index} name={member.name} link={member.link} imageLink={member.imageLink} />)}
+      </div>
+
+      <div className='team-content'>
+        <h1 className='year-heading'>Coordinators</h1>
       </div>
 
       <div className='flex-container'>
@@ -170,7 +170,7 @@ export default function Team () {
       </div>
 
       <div className='team-content'>
-        <h1>Executive Members</h1>
+        <h1 className='year-heading'>Executive Members</h1>
       </div>
 
       <div className='flex-container'>
@@ -178,7 +178,7 @@ export default function Team () {
       </div>
 
       <div className='team-content'>
-        <h1>Volunteers</h1>
+        <h1 className='year-heading'>Volunteers</h1>
       </div>
 
       <div className='flex-container'>

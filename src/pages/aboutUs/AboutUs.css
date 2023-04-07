@@ -19,6 +19,13 @@
   border-radius: 10px;
 }
 
+.ojas-about {
+  font-family: Roboto, sans-serif;
+  padding-bottom: 2rem;
+  font-weight: lighter;
+  font-size: 1.05em;
+}
+
 @media (max-width: 945px) {
   .about-us-content {
     margin: 90px 10px;
