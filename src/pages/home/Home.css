@@ -1,8 +1,11 @@
 .home-content {
   max-width: 600px;
-  margin: 20vh auto 60px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  padding: 10px;
 }
 
 .home-content .ojas-title {
@@ -100,8 +103,12 @@
   border-radius: 0 0 0 20px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 480px) {
+  .home-content .ojas-title {
+    font-size: 3em;
+  }
+
   .blockquote h1 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
