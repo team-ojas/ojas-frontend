@@ -23,3 +23,9 @@
 .year {
   font-size: 1.7em;
 }
+
+@media (max-width: 655px) {
+  .year-heading {
+    text-align: center;
+  }
+}
