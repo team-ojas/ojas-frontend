@@ -21,9 +21,14 @@
 
 .ojas-about {
   font-family: Roboto, sans-serif;
-  padding-bottom: 2rem;
+  padding-bottom: 0.6rem;
   font-weight: lighter;
   font-size: 1.05em;
+}
+
+.ojas-socials i {
+  margin: 10px;
+  padding-bottom: 0.6rem;
 }
 
 @media (max-width: 945px) {
