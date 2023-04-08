@@ -26,11 +26,6 @@
   font-size: 1.05em;
 }
 
-.ojas-socials i {
-  margin: 10px;
-  padding-bottom: 0.6rem;
-}
-
 @media (max-width: 945px) {
   .about-us-content {
     margin: 90px 10px;

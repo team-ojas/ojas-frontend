@@ -22,6 +22,9 @@ export default function Home () {
             </h1>
           </div>
         </div>
+        <a className='ojas-socials' href='https://www.instagram.com/team_ojas_nith/?hl=en'><i className='fa-brands fa-instagram fa-2xl' /></a>
+        <a className='ojas-socials' href='https://www.linkedin.com/company/ojasnith/mycompany/'><i className='fa-brands fa-linkedin fa-2xl' /></a>
+        <a className='ojas-socials' href='https://github.com/team-ojas'><i className='fa-brands fa-github fa-2xl' /></a>
       </div>
     </div>
   )

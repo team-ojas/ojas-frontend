@@ -111,6 +111,11 @@ export default function Team () {
       imageLink: 'https://i.imgur.com/18FnUyb.jpg'
     },
     {
+      name: 'Tuhina Pegu',
+      link: 'https://www.linkedin.com/in/tuhina-pegu-997a9a268',
+      imageLink: 'https://i.imgur.com/qSJwb14.jpeg'
+    },
+    {
       name: 'Muskan Saini',
       link: 'https://www.linkedin.com/in/muskan-saini-8643ba224',
       imageLink: 'https://i.imgur.com/a91JvAN.jpg'
@@ -134,11 +139,6 @@ export default function Team () {
       name: 'Himanshu Nirmal',
       link: 'https://www.linkedin.com/public-profile/settings',
       imageLink: 'https://i.imgur.com/kpSQrY0.jpeg'
-    },
-    {
-      name: 'Tuhina Pegu',
-      link: 'https://www.linkedin.com/in/tuhina-pegu-997a9a268',
-      imageLink: 'https://i.imgur.com/qSJwb14.jpeg'
     }
   ]
 

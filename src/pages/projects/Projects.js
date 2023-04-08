@@ -44,7 +44,7 @@ export default function Projects () {
     {
       projectName: 'Human Powered Powerbank',
       projectDesc: 'This human-powered power bank is used for the generation of electricity using leg movement and can be used for charging electronic gadgets. Primarily advantageous for rural people and travelers.',
-      projectImage: 'https://i.imgur.com/ix3QuEo.jpg'
+      projectImage: 'https://i.imgur.com/zSfNVKK.jpg'
     }
   ]
 

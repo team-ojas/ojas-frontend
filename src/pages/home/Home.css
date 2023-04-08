@@ -2,10 +2,16 @@
   max-width: 600px;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.ojas-socials i {
+  margin: 0 20px;
+  padding-bottom: 0.6rem;
+  padding-top: 100px;
 }
 
 .home-content .ojas-title {
