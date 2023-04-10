@@ -12,6 +12,7 @@ export default function TeamCard (props) {
         effect='black-and-white'
         className='card-img'
         alt='Profile Picture'
+        threshold={500}
       />
       <a className='socials' href={props.link}>
         <i className='linkedin fa-brands fa-linkedin fa-2xl' />
