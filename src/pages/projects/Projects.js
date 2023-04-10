@@ -28,7 +28,7 @@ export default function Projects () {
     },
     {
       projectName: 'Design and Development of a low cost automatic ventilator',
-      projectDesc: 'A lifesaver ! Our low cost ventilator designed to make accessibilty to ventilators and life support, better in rural areas. It is developed using Arduinoa & L289 Motor.',
+      projectDesc: 'A lifesaver ! Our low cost ventilator designed to make accessibilty to ventilators and life support, better in rural areas. It is developed using Arduinoa & L289 Motor. It is designed to safe the many lives in pandemics like Covid-19.',
       projectImage: 'https://i.imgur.com/NSgVoDO.jpg'
     },
     {
