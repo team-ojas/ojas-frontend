@@ -8,28 +8,25 @@ export default function Projects () {
       projectDesc: 'As the world witnesses the technological advancement in EVs. Battery degradation is to be an obstruction. This project gives a solution where we can check the percentage of battery degradation and can alarm the user to prevent accidents.',
       projectImage: 'https://i.imgur.com/koZSe7R.jpg'
     },
-
     {
       projectName: 'Non Invasive Glucometer using NIR Spectroscopy',
       projectDesc: 'This project provides a painless, non-invasive method for the detection of glucose levels in the human body. The proposed model is a painless non-obtrusive prototype utilizing NIR (near infrared) spectroscopy methodology.',
       projectImage: 'https://i.imgur.com/VyHUgUS.jpg'
     },
-
     {
       projectName: 'Website for checking details related to the Electrical Engineering Department ',
       projectDesc: 'One stop for all information! A website where all info regarding faculty, blogs, research papers, time tables, placements, and much more will be available related to the electrical engineering department, ',
       projectImage: 'https://i.imgur.com/rVAuq7c.png'
     },
-
+    {
+      projectName: 'Human Powered Powerbank',
+      projectDesc: 'This human-powered power bank is used for the generation of electricity using leg movement and can be used for charging electronic gadgets. Primarily advantageous for rural people and travelers.',
+      projectImage: 'https://i.imgur.com/zSfNVKK.jpg'
+    },
     {
       projectName: 'Earthquake Detection Using a Laser Range Finder',
       projectDesc: 'A warning before the disaster ! Our project aims to detect the occurence of earthquake around 40 seconds before it actually occurs. It is based the the prinicipal of reflection of laser beam over a mirror deep benath the earth.',
       projectImage: 'https://i.imgur.com/iQfhqzT.jpg'
-    },
-    {
-      projectName: 'Design and Development of a low cost automatic ventilator',
-      projectDesc: 'A lifesaver ! Our low cost ventilator designed to make accessibilty to ventilators and life support, better in rural areas. It is developed using Arduinoa & L289 Motor.',
-      projectImage: 'https://i.imgur.com/NSgVoDO.jpg'
     },
     {
       projectName: 'Attitude synchronisation of low rigid ',
@@ -42,9 +39,9 @@ export default function Projects () {
       projectImage: 'https://i.imgur.com/GzuHMdn.jpg'
     },
     {
-      projectName: 'Human Powered Powerbank',
-      projectDesc: 'This human-powered power bank is used for the generation of electricity using leg movement and can be used for charging electronic gadgets. Primarily advantageous for rural people and travelers.',
-      projectImage: 'https://i.imgur.com/zSfNVKK.jpg'
+      projectName: 'Design and Development of a low cost automatic ventilator',
+      projectDesc: 'A lifesaver ! Our low cost ventilator designed to make accessibilty to ventilators and life support, better in rural areas. It is developed using Arduinoa & L289 Motor. It is definitely something that can help save lives in times of pandemics like Covid-19.',
+      projectImage: 'https://i.imgur.com/NSgVoDO.jpg'
     }
   ]
 
