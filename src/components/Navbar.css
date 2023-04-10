@@ -1,10 +1,11 @@
 nav {
-  background: #3b3b3b;
+  background-color: transparent;
   height: 70px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
-  z-index: 9;
+  margin-top: 1rem;
+  z-index: 100;
 }
 
 label.logo {
@@ -17,16 +18,16 @@ label.logo {
 }
 
 .logo-image {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  top: 14px;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  margin-top: 0.8rem;
   margin-left: 10px;
 }
 
 nav ul {
   float: right;
-  z-index: 444;
+  z-index: 100;
 }
 
 nav ul li {
@@ -41,7 +42,7 @@ a {
 
 nav ul li a {
   color: #eee;
-  font-size: 20px;
+  font-size: 1.1rem;
   padding: 7px 13px;
   border-radius: 10px;
   transition: 0.5s;
@@ -61,7 +62,7 @@ i {
   color: #fff;
   float: right;
   line-height: 70px;
-  margin-right: 40px;
+  margin-right: 1.3rem;
   cursor: pointer;
   display: none;
 }
@@ -73,7 +74,7 @@ i {
 @media (max-width: 952px) {
   label.logo {
     font-size: 30px;
-    padding-left: 50px;
+    padding-left: 1.3rem;
   }
 
   nav ul li a {
@@ -93,7 +94,7 @@ i {
     right: -100%;
     text-align: center;
     transition: all 0.5s;
-    background-color: #3b3b3b;
+    backdrop-filter: blur(2rem);
     border-radius: 0 0 15px 15px;
     margin: 0;
   }
@@ -109,7 +110,7 @@ i {
   }
 
   nav ul li a {
-    font-size: 20px;
+    font-size: 1.1rem;
     padding: 0;
   }
 

@@ -1,10 +1,11 @@
 .team-page {
   color: white;
+  margin-top: 7.5rem;
 }
 
 .team-content {
   max-width: 600px;
-  margin: 90px 80px;
+  margin: 2.5rem 80px;
   margin-bottom: 40px;
 }
 
