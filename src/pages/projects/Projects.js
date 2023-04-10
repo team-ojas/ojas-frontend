@@ -23,12 +23,12 @@ export default function Projects () {
 
     {
       projectName: 'Earthquake Detection Using a Laser Range Finder',
-      projectDesc: 'One stop for all information! A website where all info regarding faculty, blogs, research papers, time tables, placements, and much more will be available related to the electrical engineering department, ',
+      projectDesc: 'A warning before the disaster ! Our project aims to detect the occurence of earthquake around 40 seconds before it actually occurs. It is based the the prinicipal of reflection of laser beam over a mirror deep benath the earth.',
       projectImage: 'https://i.imgur.com/iQfhqzT.jpg'
     },
     {
       projectName: 'Design and Development of a low cost automatic ventilator',
-      projectDesc: 'One stop for all information! A website where all info regarding faculty, blogs, research papers, time tables, placements, and much more will be available related to the electrical engineering department, ',
+      projectDesc: 'A lifesaver ! Our low cost ventilator designed to make accessibilty to ventilators and life support, better in rural areas. It is developed using Arduinoa & L289 Motor.',
       projectImage: 'https://i.imgur.com/NSgVoDO.jpg'
     },
     {
