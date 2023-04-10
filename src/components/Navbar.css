@@ -116,7 +116,7 @@ i {
   nav ul li:hover {
     background: none;
     background-color: #a259ff;
-    transition: 0.5s;
+    transition: 0.4s;
   }
 
   a:hover {
@@ -128,6 +128,8 @@ i {
   }
 
   .nav-options {
-    padding: 0 15px;
+    display: block;
+    width: 100%;
+    padding: 0;
   }
 }
